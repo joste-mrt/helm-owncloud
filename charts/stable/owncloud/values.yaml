@@ -174,9 +174,9 @@ service:
   ## nodePorts:
   ##   http: <to set explicitly, choose port between 30000-32767>
   ##   https: <to set explicitly, choose port between 30000-32767>
-  #nodePorts:
-  #  http: ""
-  #  https: ""
+  nodePorts:
+    http: ""
+    https: ""
   ## Enable client source IP preservation
   ## ref http://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip
   ##
