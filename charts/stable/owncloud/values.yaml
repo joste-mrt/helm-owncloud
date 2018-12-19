@@ -76,7 +76,7 @@ ingress:
 ## ownCloud host to create application URLs
 ## ref: https://github.com/bitnami/bitnami-docker-owncloud#configuration
 ##
-# owncloudHost:
+owncloudHost: ownclmrt
 
 ## User of the application
 ## ref: https://github.com/bitnami/bitnami-docker-owncloud#configuration
